@@ -7,6 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+  	<div class="col-xs-3">
+  	Profile
+  	</div>
+  	<div class="col-xs-4">
+      You can add your profile below:
+    </div>
+    <div class="col-xs-5">
+      <%= link_to 'Contribute', '#' %>
+    </div>
+  </header>
+
+  <br class="clear" />
 
 <%= yield %>
 
